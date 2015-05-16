@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.objectp.project0" >
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       <!-- activity-->
+        <activity
+            android:name="com.objectp.project0.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- activity-->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.objectp.project0.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- activity-->
+        <activity
+            android:name="com.objectp.project0.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.objectp.project0.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- activity-->
+        <activity
+        android:name="com.objectp.project0.TextPlay"
+        android:label="@string/app_name" >
+        <!--<intent-filter>
+            <action android:name="com.objectp.project0.MENU" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="com.objectp.project0.Email"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.objectp.project0.Camera"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.objectp.project0.Data"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.objectp.project0.OpnedClass"
+            android:label="@string/app_name" >
+        </activity>
+
+
+
+    </application>
+
+</manifest>
